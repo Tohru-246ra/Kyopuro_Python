@@ -1,3 +1,4 @@
+# デフォルト状態
 # print(*objects, sep='', end='\n', file=sys.stdout, flush=False)
 
 mugiwara = ["Luffy","Zoro","Nami"]
