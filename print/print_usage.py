@@ -1,19 +1,19 @@
 # デフォルト状態
 # print(*objects, sep='', end='\n', file=sys.stdout, flush=False)
 
-mugiwara = ["Luffy","Zoro","Nami"]
+gl = ['alpha','beta','gamma']
 
-print("Hello")                      # Hello
+print('Hello')                      # Hello
 
-print(mugiwara)                     # ['Luffy', 'Zoro', 'Nami']
-print(*mugiwara)                    # Luffy Zoro Nami
+print(gl)                     # ['alpha', 'beta', 'gamma']
+print(*gl)                    # alpha beta gamma
 
-print(*mugiwara, sep=' $ ')         # Luffy $ Zoro $ Nami
-print(*mugiwara, end=' $ ')         # Luffy Zoro Nami $   <- 改行していない
+print(*gl, sep=' $ ')         # alpha $ beta $ gamma  <-separate
+print(*gl, end=' $ ')         #  alpha beta gamma $   <- 改行していない
 print("")                           # 改行
      
-for i in mugiwara:                  # Luffy
-    print(i)                        # Zoro
-                                    # Nami  <- 列で出力
-for i in mugiwara:
-    print(i, end=' ')               #Luffy Zoro Nami  <- 行で出力
+for i in gl:                        # alpha
+    print(i)                        # beta
+                                    # gamma  <- 列で出力
+for i in gl:
+    print(i, end=' ')               # alpha beta gamma  <- 行で出力
