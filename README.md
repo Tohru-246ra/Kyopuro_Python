@@ -11,5 +11,5 @@
 
 | Index | Contents |
 | :---:  | :---: |
-|   print   | [print関数の使用方法](https://github.com/Tohru-246ra/kyopuro_python/tree/main/print)|
+|   others   | [その他のコード](https://github.com/Tohru-246ra/kyopuro_python/tree/main/others)|
 
